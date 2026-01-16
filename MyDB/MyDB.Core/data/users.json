@@ -1,0 +1,30 @@
+{
+  "Name": "users",
+  "Columns": [
+    {
+      "Name": "id",
+      "DataType": 17,
+      "IsPrimaryKey": true,
+      "IsUnique": false
+    },
+    {
+      "Name": "name",
+      "DataType": 18,
+      "IsPrimaryKey": false,
+      "IsUnique": false
+    },
+    {
+      "Name": "email",
+      "DataType": 18,
+      "IsPrimaryKey": false,
+      "IsUnique": true
+    },
+    {
+      "Name": "phone",
+      "DataType": 18,
+      "IsPrimaryKey": false,
+      "IsUnique": false
+    }
+  ],
+  "Rows": []
+}

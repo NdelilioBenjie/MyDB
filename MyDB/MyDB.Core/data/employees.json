@@ -1,0 +1,30 @@
+{
+  "Name": "employees",
+  "Columns": [
+    {
+      "Name": "id",
+      "DataType": 17,
+      "IsPrimaryKey": true,
+      "IsUnique": false
+    },
+    {
+      "Name": "name",
+      "DataType": 18,
+      "IsPrimaryKey": false,
+      "IsUnique": false
+    },
+    {
+      "Name": "dept_id",
+      "DataType": 17,
+      "IsPrimaryKey": false,
+      "IsUnique": false
+    }
+  ],
+  "Rows": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "dept_id": 1
+    }
+  ]
+}

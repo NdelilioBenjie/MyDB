@@ -1,0 +1,13 @@
+# .NET
+bin/
+obj/
+
+# Laravel
+/vendor
+/node_modules
+/public/storage
+.env
+
+# OS / IDE
+.vscode/
+.DS_Store
