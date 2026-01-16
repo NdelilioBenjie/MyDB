@@ -158,7 +158,7 @@ SELECT * FROM users WHERE id = 1;
 
 ```sql
 UPDATE users
-SET name = 'Alice Smith'
+SET name = 'Ben Ayo'
 WHERE id = 1;
 ```
 
