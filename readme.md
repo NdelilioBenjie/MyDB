@@ -227,6 +227,8 @@ cd MyDBApi
 dotnet run
 ```
 
+- You can access http://localhost:5000/users and test CRUD actions using Postman and changes will be reflected in the /data folder
+
 ### Running the Laravel App
 
 ```bash
@@ -239,22 +241,14 @@ Configure the API URL in Laravel via `config/services.php`.
 
 ---
 
+- You can access http://127.0.0.1:8000 and test CRUD actions in the web app.
+
 ## Project Goals
 
-This project demonstrates:
+This project was inspired by a coding challenge to design and implement a relational database management system from scratch. Its goals are to understand how an RDBMS works internally, explore SQL tokenization, parsing, and execution, implement joins and constraint enforcement, build a persistence layer without external databases, and demonstrate how a custom database can power a real web application. The project is intentionally simple, educational, and transparent, prioritizing correctness and clarity over production optimizations.
 
-- How a relational database works internally
-- How SQL can be tokenized, parsed, and executed
-- How joins and constraints are enforced
-- How persistence can be implemented without external systems
-- How a custom database can power a real web application
+## Tooling and Resources
 
-MyDB is intentionally simple, educational, and transparent, focusing on core concepts rather than production optimizations.
+During development, AI tools such as ChatGPT, Grok, and ClaudeAI were used to assist with debugging and architectural validation. Official .NET tutorials and documentation were used extensively, and Stack Overflow was consulted to resolve language-specific and runtime issues. These tools supported learning and problem-solving without replacing core implementation work.
 
-- AI tools(Grok, Chatgpt, ClaudeAI) were used to debug errors and set up some functions during the dev process.
-
----
-
-## License
-
-This project is for educational and experimental purposes.
+This project demonstrates low-level systems thinking combined with full-stack integration and serves as both an educational reference and a technical portfolio piece.
